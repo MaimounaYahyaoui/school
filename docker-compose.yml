@@ -26,7 +26,7 @@ services:
       }'
     stdin_open: true
     tty: true
- app-school-front:
+  app-school-front:
     image: maimounay/school-frontend:1.0.0
     #build : ./
     restart: on-failure
